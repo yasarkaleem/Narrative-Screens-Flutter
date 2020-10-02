@@ -41,8 +41,6 @@ class _MyAppState extends State<MyApp> {
             title: Text('Flights'),
             mainImage: Image.network(
               'https://icons.iconarchive.com/icons/dapino/summer-holiday/256/aeroplane-icon.png',
-              // height: 285.0,
-              // width: 285.0,
               alignment: Alignment.center,
             ),
             titleTextStyle: head,
@@ -50,7 +48,6 @@ class _MyAppState extends State<MyApp> {
           ),
           PageViewModel(
               pageColor: Colors.black,
-              // iconImageAssetPath: 'assets/air-hostess.png',
               bubble: Image.asset('assets/images/pilotfemale.png'),
               body: Text(
                 "Go anywhere anytime. We'll drive you happy! ",
@@ -62,8 +59,6 @@ class _MyAppState extends State<MyApp> {
               bodyTextStyle: subhead,
               mainImage: Image.network(
                 'https://icons.iconarchive.com/icons/bevel-and-emboss/car/256/van-bus-icon.png',
-                // height: 500,
-                // width: 500,
                 alignment: Alignment.center,
               )),
           PageViewModel(
@@ -75,8 +70,6 @@ class _MyAppState extends State<MyApp> {
             title: Text('Cabs'),
             mainImage: Image.network(
               'https://icons.iconarchive.com/icons/icons-land/transporter/256/Taxi-Right-Yellow-icon.png',
-              // height: 285.0,
-              // width: 285.0,
               alignment: Alignment.center,
             ),
             titleTextStyle: head,
@@ -92,14 +85,7 @@ class _MyAppState extends State<MyApp> {
         nextText: Text("Next", style: subhead),
         doneText: Text("Done", style: subhead),
         skipText: Text("Skip", style: subhead),
-        onTapDoneButton: () {
-          // Navigator.push(
-          //   context,
-          //   MaterialPageRoute(
-          //     builder: (context) => HomePage(),
-          //   ), //MaterialPageRoute
-          // );
-        },
+        onTapDoneButton: () {},
         pageButtonTextStyles: TextStyle(
           color: Colors.white,
           fontSize: 18.0,
